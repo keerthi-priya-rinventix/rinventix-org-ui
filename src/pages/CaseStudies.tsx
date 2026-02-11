@@ -5,38 +5,8 @@ import twitterIcon from "../assets/twitter-icon.svg";
 import linkedinIcon from "../assets/linkedin-icon.svg";
 import facebookIcon from "../assets/fb-icon.svg";
 import { NewsletterCard } from "../components/NewsletterCard";
-import { Footer, RinventixInfoHub, type InfoHubCaseStudy } from "../components/home";
-import casestudy1 from '../assets/Casestudy1.jpg';
-import casestudy2 from '../assets/Casestudy2.jpg';
-import casestudy3 from '../assets/Casestudy3.jpg';
+import { Footer, RinventixInfoHub } from "../components/home";
 import casestudyImage from '../assets/case-study-image.jpg';
-
-const infoHubCaseStudies: InfoHubCaseStudy[] = [
-  {
-    id: '1',
-    image: casestudy1,
-    imageAlt: 'Smarter Retail Forecasting',
-    heading: 'Smarter Retail Forecasting',
-    supportingText: 'Cut inventory by 24% and sped fulfillment speed.',
-    caseStudyLink: '/case-studies',
-  },
-  {
-    id: '2',
-    image: casestudy2,
-    imageAlt: '24/7 AI Chatbot',
-    heading: '24/7 AI Chatbot',
-    supportingText: 'Cut inventory by 24% and sped fulfillment speed.',
-    caseStudyLink: '/case-studies',
-  },
-  {
-    id: '3',
-    image: casestudy3,
-    imageAlt: 'Smarter Retail Forecasting',
-    heading: 'Smarter Retail Forecasting',
-    supportingText: 'Cut inventory by 24% and sped fulfillment speed.',
-    caseStudyLink: '/case-studies',
-  },
-];
 
 export function CaseStudies() {
   const sectionHeadingClass = "font-satoshi font-medium text-[24px] text-[#141415]";
@@ -233,5 +203,6 @@ export function CaseStudies() {
         <div className="-mx-[60px] w-[calc(100%+120px)]">
           <Footer />
         </div>
-    </div>  );
+    </div>
+  );
 }

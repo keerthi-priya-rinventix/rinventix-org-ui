@@ -2,6 +2,19 @@ import { Button } from "../Button";
 import casestudy1 from '../../assets/person-working-html-computer-1--1.png';
 import casestudy2 from '../../assets/representation-user-experience-interface-design-1--1.png';
 
+export interface InfoHubCaseStudy {
+  id: string;
+  image: string;
+  imageAlt: string;
+  heading: string;
+  supportingText: string;
+  caseStudyLink: string;
+}
+
+export interface LearnMoreLink {
+  text: string;
+  href: string;
+}
 
 export function RinventixInfoHub() {
   return (

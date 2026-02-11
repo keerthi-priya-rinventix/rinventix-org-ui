@@ -1,5 +1,4 @@
 import { useNavigate } from 'react-router-dom';
-import { Button } from '../Button';
 import callIcon from '../../assets/call-1.svg';
 
 export function HeroSection() {

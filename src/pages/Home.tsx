@@ -14,7 +14,7 @@ import {
   RinventixInfoHub,
   Footer,
 } from '../components/home';
-import type { InfoHubCaseStudy, StatCard, StoryItem } from '../components/home';
+import type { StatCard, StoryItem } from '../components/home';
 
 const enterpriseStats: StatCard[] = [
   { icon: 'phone', percentage: '30-60%', description: 'less manual work' },
@@ -59,33 +59,6 @@ const successStories: StoryItem[] = [
     imageAlt: 'Smarter Retail Forecasting',
     heading: 'Smarter Retail Forecasting',
     supportingText: 'Cut inventory costs by 24% and tripled fulfillment speed.',
-    caseStudyLink: '/case-studies',
-  },
-];
-
-const infoHubCaseStudies: InfoHubCaseStudy[] = [
-  {
-    id: '1',
-    image: casestudy1,
-    imageAlt: 'Smarter Retail Forecasting',
-    heading: 'Smarter Retail Forecasting',
-    supportingText: 'Cut inventory by 24% and sped fulfillment speed.',
-    caseStudyLink: '/case-studies',
-  },
-  {
-    id: '2',
-    image: casestudy2,
-    imageAlt: '24/7 AI Chatbot',
-    heading: '24/7 AI Chatbot',
-    supportingText: 'Cut inventory by 24% and sped fulfillment speed.',
-    caseStudyLink: '/case-studies',
-  },
-  {
-    id: '3',
-    image: casestudy3,
-    imageAlt: 'Smarter Retail Forecasting',
-    heading: 'Smarter Retail Forecasting',
-    supportingText: 'Cut inventory by 24% and sped fulfillment speed.',
     caseStudyLink: '/case-studies',
   },
 ];
@@ -141,5 +114,6 @@ export function Home() {
 
         <Footer />
       </div>
-    </>  );
+    </>
+  );
 }
