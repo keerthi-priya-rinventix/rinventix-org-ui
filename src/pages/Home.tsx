@@ -141,6 +141,5 @@ export function Home() {
 
         <Footer />
       </div>
-    </>
-  );
+    </>  );
 }

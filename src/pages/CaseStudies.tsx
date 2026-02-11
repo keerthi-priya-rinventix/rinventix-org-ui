@@ -233,6 +233,5 @@ export function CaseStudies() {
         <div className="-mx-[60px] w-[calc(100%+120px)]">
           <Footer />
         </div>
-    </div>
-  );
+    </div>  );
 }

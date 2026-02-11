@@ -77,6 +77,5 @@ export function TopNavbar() {
           </div>
         </div>
       </div>
-    </div>
-  );
+    </div>  );
 }
