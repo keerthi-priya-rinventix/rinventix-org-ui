@@ -6,7 +6,7 @@ export function HeroSection() {
   const navigate = useNavigate();
 
   return (
-    <main className="relative z-10 flex flex-col items-center gap-6 sm:gap-8 w-full max-w-5xl mx-auto px-4 sm:px-6 md:px-8 sm:pt-12 md:pt-16 lg:pt-20 xl:pt-[162px] pb-8 sm:pb-12">
+    <main className="relative z-10 flex flex-col items-center gap-6 sm:gap-8 w-full max-w-5xl mx-auto px-4 sm:px-6 md:px-8 sm:pt-12 md:pt-16 lg:pt-20 xl:pt-[82px] pb-8 sm:pb-12">
       <div className="flex flex-col items-center gap-4 sm:gap-5 w-full">
         <h1 className="text-center px-2">
           <span className="font-medium text-4xl sm:text-5xl lg:text-[60px] leading-[105%] tracking-[-0.03em] text-black">
