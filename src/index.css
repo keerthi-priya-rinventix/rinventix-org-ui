@@ -2,6 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+@keyframes success-stories-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Satoshi font – add @font-face or link font files as needed */
+.Satoshi-Medium {
+  font-family: 'Satoshi', system-ui, sans-serif;
+  font-weight: 500;
+}
+.Satoshi-Regular {
+  font-family: 'Satoshi', system-ui, sans-serif;
+  font-weight: 400;
+}
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
